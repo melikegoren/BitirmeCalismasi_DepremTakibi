@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unknown_error">Deprem Takibi</string>
+    <string name="no_data_found">Veri bulunamadı!</string>
+    <string name="search_by_city">Şehre göre ara</string>
+    <string name="inside">Eğer kapalı bir alandaysanız- Bulunduğunuz Yerde Kalın! Bir sıra ya da masanın altına girin  ve tutunun (Çök, Kapan, Tutun!) ya da bir koridora gidin. Pencerelerden, ocaklardan, ağır mobilyalardan ve cihazlardan uzak durun. Üstünüze tabak çanak düşme ihtimaline karşı mutfağa girmeyin. Bina hala sallanırken üzerinize cam ya da moloz düşme ihitmaline karşı merdivenlere koşmayın ya da kendinizi dışarı atmayın.</string>
+    <string name="outside">Eğer dışarıdaysanız - Açıklık alanlara doğru ilerleyin, binalardan, güç kablolarından bacalardan ya da üzerinize düşebilecek her türlü yapıdan uzak durun.</string>
+    <string name="driving">Eğer araba kullanıyorsanız - arabayı dikkatlice durdurun, mümkünse aracınızı trafikten uzaklaştırın. Köprü, üst geçit, ağaç veya direk gibi yerlerin altında durmayın. Sallanma bitene kadar arabanızdan çıkmayın. Tekrardan arabayı kullanmaya başladığınızda kaldırımlara, savrulan taşlara ya da köprü girişlerindeki tümseklere dikkat edin.</string>
+    <string name="during_earthquake">Deprem sırasında ne yapmalıyız?</string>
+    <string name="location">Lokasyon</string>
+    <string name="closest_cities">Çevre iller</string>
+    <string name="population">"Nüfus: "</string>
+    <string name="airports">Havalimanları</string>
+    <string name="last_earthquakes">Son Depremler</string>
+    <string name="general_info">Genel Bilgiler</string>
+</resources>

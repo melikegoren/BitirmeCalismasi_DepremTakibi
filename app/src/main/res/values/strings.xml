@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">DepremTakibi</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="_7" translatable="false"><![CDATA[7<]]></string>
+    <string name="_7_6" translatable="false">7-6</string>
+    <string name="_6_5" translatable="false">6-5</string>
+    <string name="_5_4" translatable="false">5-4</string>
+    <string name="_4" translatable="false"><![CDATA[<4]]></string>
+    <string name="last_earthquakes">Last Earthquakes</string>
+    <string name="no_data_found">No Data Found!</string>
+    <string name="search_by_city">Search by city</string>
+
+    <string name="inside">If you are INDOORS — STAY THERE! Get under a desk or table and hang on to it (Drop, Cover, and Hold on!) or move into a hallway or against an inside wall.
+        STAY CLEAR of windows, fireplaces, and heavy furniture or appliances. GET OUT of the kitchen, which is a dangerous place (things can fall on you).
+        DON\'T run downstairs or rush outside while the building is shaking or while there is danger of falling and hurting yourself or being hit by falling glass or debris.</string>
+
+    <string name="outside">If you are OUTSIDE — get into the OPEN, away from buildings, power lines, 
+        chimneys, and anything else that might fall on you.</string>
+    
+    <string name="driving">If you are DRIVING — stop, but carefully. Move your car as far out of traffic as possible.
+        DO NOT stop on or under a bridge or overpass or under trees, light posts, power lines, or signs.
+        STAY INSIDE your car until the shaking stops. When you RESUME driving,
+        watch for breaks in the pavement, fallen rocks, and bumps in the road at bridge approaches.</string>
+
+
+    <string name="during_earthquake">What to do during an earthquake ?</string>
+    <string name="location">Location</string>
+    <string name="closest_cities">Closest Cities</string>
+    <string name="population">"Population: "</string>
+    <string name="airports">Airports</string>
+    <string name="general_info">General Informations</string>
+
+</resources>

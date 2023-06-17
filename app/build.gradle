@@ -1,0 +1,115 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin' version '2.0.1' apply false
+}
+
+android {
+    namespace 'com.example.depremtakibi'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.depremtakibi"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+ext {
+
+    navigation_version = "2.5.3"
+    lifecycle_version = "2.6.1"
+    ktx_activity_version = "1.7.0"
+    retrofit_version = "2.9.0"
+    gson_version = "2.10"
+    hilt_extension_version = "2.44.2"
+    hilt_compiler_version = "1.0.0"
+    coroutine_version = "1.6.4"
+    runtime_ktx_version = "2.8.1"
+    ssp_sdp_version = "1.0.6"
+    swipe_version = "1.1.0"
+    android_utils_version = "1.31.0"
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigation_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigation_version"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.activity:activity-ktx:$ktx_activity_version"
+
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.google.code.gson:gson:$gson_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    //Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_extension_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_extension_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_compiler_version"
+    implementation "androidx.hilt:hilt-work:$hilt_compiler_version"
+
+    //Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutine_version"
+    implementation "androidx.work:work-runtime-ktx:$runtime_ktx_version"
+
+    //SSP-SDP library
+    implementation "com.intuit.ssp:ssp-android:$ssp_sdp_version"
+    implementation "com.intuit.sdp:sdp-android:$ssp_sdp_version"
+
+    //Google Maps
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    //SwipeLayout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swipe_version"
+
+    //Android Util
+    implementation "com.blankj:utilcodex:$android_utils_version"
+
+
+}
