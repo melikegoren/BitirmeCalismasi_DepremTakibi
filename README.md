@@ -14,10 +14,7 @@ detaylı bilgilerin gösterildiği bir mobil uygulama.
 -  Repository Pattern
 
 ## Uygulama Ekran Çıktıları
-
-<img width="200" height="400" src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/e7fa4655-3b54-4afe-a5c1-bd8d9e59731c" > 
-<img width="200" height="400" src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/f29943cf-9cef-42c9-9523-b95c042ac009" ">
-<img width="200" height="400" src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/360b9987-7c98-4b41-9025-77c5b6594f48" > 
-<img width="200" height="400" src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/0588ceb8-7f41-4122-816f-fec2aea0ca04" >
-<img width="200" height="400" src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/1767f341-a7b1-4051-8ee1-80ff2734e136" > 
-
+<img width="200" height="400" alt="Ekran Resmi 2023-08-19 14 47 29" src="https://github.com/melikegoren/BitirmeCalismasi_DepremTakibi/assets/79282676/e592c461-bff5-46f2-a90a-d45b2378d828">
+<img width="200" height="400" alt="Ekran Resmi 2023-08-19 14 47 42" src="https://github.com/melikegoren/BitirmeCalismasi_DepremTakibi/assets/79282676/c06ce6ca-b102-42c2-a73d-d780d97f78d1">
+<img width="200" height="400" alt="Ekran Resmi 2023-08-19 14 48 19" src="https://github.com/melikegoren/BitirmeCalismasi_DepremTakibi/assets/79282676/9e5dd601-39d0-4c35-b6a7-ac76556d67c9">
+<img width="200" height="400" alt="Ekran Resmi 2023-08-19 14 48 39" src="https://github.com/melikegoren/BitirmeCalismasi_DepremTakibi/assets/79282676/0973eed2-c590-4e00-ae57-7165ba677464">
