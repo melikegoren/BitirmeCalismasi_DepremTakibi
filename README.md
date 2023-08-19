@@ -15,7 +15,7 @@ detaylı bilgilerin gösterildiği bir mobil uygulama.
 
 ## Uygulama Ekran Çıktıları
 
-<img src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/e7fa4655-3b54-4afe-a5c1-bd8d9e59731c" alt="Anasayfa" width="200" height="400"> 
+<img src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/e7fa4655-3b54-4afe-a5c1-bd8d9e59731c", alt="Anasayfa",  width="200", height="400"> 
 <img src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/f29943cf-9cef-42c9-9523-b95c042ac009" alt="Arama çubuğunda şehre göre arama" width="200" height="400">
 <img src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/360b9987-7c98-4b41-9025-77c5b6594f48" alt="İstenilen deprem şiddetinde deprem verisi yoksa." width="200" height="400"> 
 <img src="https://github.com/melikegoren/BitirmeCalismasi-DepremTakibi/assets/79282676/0588ceb8-7f41-4122-816f-fec2aea0ca04" alt="Genel Bilgiler sayfası" width="200" height="400">
